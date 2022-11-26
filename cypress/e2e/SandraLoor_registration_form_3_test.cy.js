@@ -165,7 +165,7 @@ describe('Second test suite for registration form 3', () => {
         cy.log('Back on registration form 3')
     });
 
-    it.only('Check that only mandatory fields are filled in', () => {       
+    it('Check that only mandatory fields are filled in', () => {       
         // Fill the email field
         cy.get('.email').type('email.email@email.com')
 
